@@ -1,14 +1,14 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.18.9">
+<qgis projectname="" version="2.18.13">
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="Countries_With_Data20171030164340034" source="D:/Projects/UWT/Tourism WebMap/Data/Countries_With_Data.shp" name="Countries_With_Data">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="Countries_With_Data20171030164340034" source="/Users/matthewseto/Documents/Projects/Tourism WebMap/10_year_tourism_Deltas/Data/Countries_With_Data.shp" name="Countries_With_Data">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="cntry0220171030164035755" source="D:\Projects\UWT\Tourism WebMap\Data\cntry02.shp" name="cntry02">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="cntry0220171030164035755" source="/Users/matthewseto/Documents/Projects/Tourism WebMap/10_year_tourism_Deltas/Data/cntry02.shp" name="cntry02">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -16,10 +16,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-189</xmin>
-      <ymin>-94.34058990478516193</ymin>
-      <xmax>189</xmax>
-      <ymax>87.96418609619141193</ymax>
+      <xmin>-188.21167883211680305</xmin>
+      <ymin>-120.74934902887275712</ymin>
+      <xmax>189.78832116788319695</xmax>
+      <ymax>61.55542697210381675</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -405,6 +405,7 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -430,7 +431,7 @@
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="CNTRY_NAME" index="0" name=""/>
         <alias field="2004" index="1" name=""/>
@@ -449,10 +450,10 @@
           <column width="-1" hidden="0" type="field" name="Change"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -727,6 +728,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -752,7 +754,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="GMI_CNTRY" index="0" name=""/>
         <alias field="CNTRY_NAME" index="1" name=""/>
@@ -776,10 +778,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
